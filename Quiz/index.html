@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Perguntas e Respostas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz">
+        <h1>Quiz de Perguntas e Respostas</h1>
+        <p id="pergunta">Onde fica a Oktoberfest?</p>
+        <ul id="opcoes">
+            <li onclick="verificarResposta(this)">Rio de Janeiro</li>
+            <li onclick="verificarResposta(this)">Florianópolis</li>
+            <li onclick="verificarResposta(this)">Blumenau</li>
+            <li onclick="verificarResposta(this)">Joinville</li>
+            <li onclick="verificarResposta(this)">Curitiba</li>
+        </ul>
+        <p id="resultado"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

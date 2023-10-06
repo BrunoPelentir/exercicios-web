@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f051cdbe;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(nicole02.jpeg);
+    background-size: cover;
+    
+}
+
+.card {
+    background-color: rgba(248, 218, 238, 0.966);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    border-color: rgb(255, 8, 202);
+    margin-top: 270px;
+    margin-left: 580px;
+    background-image: url(nicole.jpeg);
+    border-style:double;
+
+
+}
+
+h1 {
+    color: rgb(71, 3, 36);
+    font-size: 24px;
+    font-style: italic;
+}
+
+p {
+    color: rgb(71, 3, 36);
+    font-size: 18px;
+    font-style: italic;
+}
+
+.contact-info {
+    margin-top: 20px;
+    
+}
